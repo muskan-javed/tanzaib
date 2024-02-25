@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={marcellus.className}>{children}</body>
-      <GoogleAnalytics gaId="G-XYZ" />
+      <GoogleAnalytics gaId="" />
     </html>
   )
 }
